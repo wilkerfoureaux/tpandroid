@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "877636504113",
+    "firebase_url": "https://tpandroid-4db6d.firebaseio.com",
+    "project_id": "tpandroid-4db6d",
+    "storage_bucket": "tpandroid-4db6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877636504113:android:e5b0fe8c3618a1da",
+        "android_client_info": {
+          "package_name": "puc.iec.dadm.tpandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877636504113-n7u89abo1sf8htkbjf715ibjc8ot8fdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBWcwka6t0-9y5YG9DjRw9rPyugx_Es6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
