@@ -17,15 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".OAuthActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service android:name=".FirebaseMessagingService">
             <intent-filter>
@@ -41,19 +35,33 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-
         <activity
             android:name=".Auth_dialog"
             android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="oauth-tpandroid" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OfferScrollingActivity"
+            android:label="@string/title_activity_offers_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OffersActivity"
+            android:label="@string/title_activity_offers"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

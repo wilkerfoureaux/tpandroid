@@ -17,12 +17,14 @@ public class FirebaseInstanceIDService extends FirebaseInstanceIdService {
 
     @Override
     public void onTokenRefresh() {
+
         String token = FirebaseInstanceId.getInstance().getToken();
 
         registerToken(token);
     }
 
     private void registerToken(String token) {
+
         OkHttpClient client = new OkHttpClient();
 
         RequestBody body = new FormBody.Builder()
